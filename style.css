@@ -1,6 +1,4 @@
 body {
-    height: 100vh;
-    width:1440px;
     background-color: hsl(185, 75%, 39%);
     background-image: 
         url(/images/bg-pattern-top.svg),
@@ -8,4 +6,16 @@ body {
         background-repeat: no-repeat, no-repeat;
         background-position: -270px -500px, 800px 400px;
         background-size: contain contain;
+        
+}
+
+.card {
+    background-color:white;
+    width: 350px;
+    border-radius: 2%;
+}
+
+.card_upper_pattern {
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
 }
