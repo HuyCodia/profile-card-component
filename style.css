@@ -1,8 +1,8 @@
 body {
     background-color: hsl(185, 75%, 39%);
     background-image: 
-        url(/images/bg-pattern-top.svg),
-        url(/images/bg-pattern-bottom.svg);
+        url(./images/bg-pattern-top.svg),
+        url(./images/bg-pattern-bottom.svg);
         background-repeat: no-repeat, no-repeat;
         background-position: -270px -500px, 800px 400px;
         background-size: contain contain;
