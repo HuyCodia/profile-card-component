@@ -9,13 +9,26 @@ body {
         
 }
 
-.card {
+.white_part {
     background-color:white;
     width: 350px;
-    border-radius: 2%;
+    height: 450px;
+    border-radius: 25px;
+    position: relative;
+    top: -190px
+}
+
+.profile_pic_victor {
+    position: relative;
+    z-index: 100;
+    border-radius: 50px;
+    margin-left: 120px;
 }
 
 .card_upper_pattern {
-    border-top-left-radius: 4%;
-    border-top-right-radius: 4%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    z-index: 5;
+    position: relative;
+    top: 50px;
 }
